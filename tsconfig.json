@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "target": "ES5",
+    "types": [
+      // "node",
+      "lua-types/jit",
+      "love-typescript-definitions",
+      "./src/@types/global"
+    ]
+  },
+  "include": ["./src/**/*.ts"],
+  "tstl": {
+    "luaTarget": "JIT"
+  }
+}

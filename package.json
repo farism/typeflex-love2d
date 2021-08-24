@@ -1,0 +1,27 @@
+{
+  "name": "love2d-typescript",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-staged": "lint-staged",
+    "pretty": "prettier --write",
+    "tstl": "tstl -p tsconfig.json",
+    "tstl:dev": "tstl -w -p tsconfig.json",
+    "love": "love dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "16.7.1",
+    "lint-staged": "11.1.2",
+    "love-typescript-definitions": "0.23.0",
+    "lua-types": "2.10.1",
+    "prettier": "2.3.2",
+    "typescript": "4.3.5",
+    "typescript-to-lua": "1.0.0"
+  },
+  "dependencies": {
+    "typeflex": "0.0.1"
+  }
+}
